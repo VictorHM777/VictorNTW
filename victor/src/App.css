@@ -1,0 +1,206 @@
+                                              .texto {
+                                                color:rgb(221, 189, 189);
+                                                font-size: 3em;
+                                              }
+
+                                              body{
+                                                position: relative ;
+                                                min-height: 100vh;
+                                                width: 100%;
+                                                overflow: hidden;
+                                              }
+
+                                              .sidebar {
+                                                position: fixed;
+                                                top: 0;
+                                                left: 0;
+                                                height: 93%;
+                                                width: 250px;
+                                                background: #11101d ;
+                                                padding: 25px 15px ;
+                                              }
+
+                                              .sidebar .logo_content .logo {
+                                                color: #fff ;
+                                                display: flex;
+                                                height: 50px;
+                                                width: 100%;
+                                                align-items: center;
+                                              }
+
+                                              .logo_content .logo i {
+                                                font-size: 28px ;
+                                                margin-right: 5px;
+                                              }
+
+                                              .logo_content .logo .logo_name {
+                                                font-size: 20px;
+                                                font-weight: 400;
+                                              }
+
+                                              .sidebar #btn {
+                                                position: absolute;
+                                                color: #fff;
+                                                left: 90%;
+                                                top: 6px;
+                                                font-size: 20px;
+                                                height: 50px;
+                                                width: 50px;
+                                                text-align: center;
+                                                line-height: 50px;
+                                                transform: translateX(-50%);
+                                              }
+
+                                              .sidebar ul {
+                                                margin-top: 20px;
+                                                /* margin-left: -47px; */
+                                              }
+
+                                              .sidebar ul li {
+                                                position: relative;
+                                                height: 50px;
+                                                width: 100%;
+                                                margin: 0 5px;
+                                                list-style: none;
+                                                line-height: 50px;
+                                              }
+
+                                              .sidebar ul li .tooltip {
+                                                position: absolute;
+                                                height: 35px;
+                                                width: 122px;
+                                                left: 122px;
+                                                top: 0;
+                                                transform: translateY(-50%);
+                                                border-radius: 6px;
+                                                line-height: 35px;
+                                                text-align: center;
+                                                background: #fff;
+                                                transition: 0s;
+                                                opacity: 0;
+                                                pointer-events: none;
+                                                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+                                              }
+
+                                              .sidebar ul li:hover .tooltip {
+                                                top: 50%;
+                                                opacity: 1;
+                                                transition: all 0.5s ease;
+
+
+                                              }
+
+                                              .sidebar ul li input {
+                                                position: absolute;
+                                                height: 100%;
+                                                width: 75%;
+                                                left: 0;
+                                                top: 0;
+                                                border-radius: 12px;
+                                                outline: none;
+                                                border: none;
+                                                background: #1d1b31;
+                                                padding-left: 50px;
+                                                font-size: 18px;
+                                                color: #fff;
+                                              }
+
+                                              .sidebar ul li .bx-search{
+                                                position: absolute;
+                                                z-index: 99;
+                                                color: #fff;
+                                                font-size: 22px;
+                                              }
+
+
+                                              .sidebar ul li a {
+                                                color: #fff;
+                                                display: flex;
+                                                align-items: center;
+                                                text-decoration: none;
+                                                transition: all 0.4s ease;
+                                                border-radius: 12px;
+                                              }
+
+                                              .sidebar ul li a:hover{
+                                                background: #fff;
+                                                color: #11101d;
+                                              }
+
+                                              .sidebar ul li i {
+                                                height: 50px;
+                                                min-width: 50px;
+                                                border-radius: 12px;
+                                                line-height: 50px;
+                                                text-align: center;
+                                              }
+
+                                              .nav_lista {
+                                                margin-left: -47px;
+                                              }
+
+                                              .sidebar .conteudo_perfil {
+                                                color: #fff;
+                                                position: absolute;
+                                                bottom: 0;
+                                                left: 0;
+                                                width: 100%;
+                                              }
+                                              
+                                              .sidebar .conteudo_perfil .perfil {
+                                                color: #fff;
+                                                position: relative;
+                                                padding: 15px 32px 12px 40px;
+                                                height: 60px;
+                                                background: #0d0d13;
+                                              }
+
+                                              .conteudo_perfil .perfil .detalhes_perfil {
+                                                display: flex;
+                                                align-items: center;
+                                              } 
+                                              
+                                              .perfil .detalhes_perfil img {
+                                                height: 45px;
+                                                width: 45px;
+                                                object-fit: cover;
+                                                border-radius: 12px;
+                                              }
+
+                                              .perfil .detalhes_perfil .trabalho_nome {
+                                                margin-left: 10px;
+                                              }
+                                              
+                                              .perfil .detalhes_perfil .nome {
+                                               font-size: 15px;
+                                               font-weight: 400;
+                                              }
+
+                                              .perfil .detalhes_perfil .trabalho {
+                                               font-size: 12px;
+                                              }
+
+                                              .conteudo_perfil #logout {
+                                                left: 88%;
+                                                bottom: 5px;
+                                                transform: translateX(-50%);
+                                                min-width: 50px;
+                                                line-height: 50px;
+                                                font-size: 20px;
+                                                border-radius: 12px;
+                                                position: absolute;
+                                              }
+
+                                              .conteudo_home {
+                                                position: absolute;
+                                                height: 100%;
+                                                width: calc(100% -240px);
+                                                left: 240px;
+                                              }
+
+                                              .conteudo_home .texto {
+                                                font-size: 25px;
+                                                font-weight: 500;
+                                                color: #1d1b31;
+                                                margin: 12px;
+                                              }
